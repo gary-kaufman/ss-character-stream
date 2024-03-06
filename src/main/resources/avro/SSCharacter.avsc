@@ -1,0 +1,33 @@
+{
+  "type": "record",
+  "namespace": "character_stream_app.model",
+  "name": "SSCharacter",
+  "doc": "Avro Schema for Character data from Super Smash Bros",
+  "fields": [
+    {
+      "name": "match_length",
+      "type": "float",
+      "doc": "The length of the match in seconds"
+    },
+    {
+      "name": "character_name",
+      "type": "string",
+      "doc": "The name of the character"
+    },
+    {
+      "name": "player_name",
+      "type": "string",
+      "doc": "The name of the person identified as the character"
+    },
+    {
+      "name": "winner",
+      "type": "boolean",
+      "doc": "true = SSCharacter won the match; false = SSCharacter lost the match"
+    },
+    {
+      "name": "stage",
+      "type": "string",
+      "doc": "The title of the stage the match was played on"
+    }
+  ]
+}
