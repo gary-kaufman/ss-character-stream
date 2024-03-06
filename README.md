@@ -1,4 +1,4 @@
-# Super Smash Character Data Streaming Application
+# Super Smash Character Data Streaming Application ⚔💥💪
 
 This is a Kafka Streams application that takes input from a topic of game data and extracts the character data from each message to be sent downstream.
 
